@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Schedule</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Food Schedule</h1>
+    <form>
+        <label for="day">Day:</label>
+        <input type="text" id="day" name="day"><br><br>
+        <label for="date">Date</label>
+        <input type="date" id ="date" name="date"><br><br>
+        <label for="breakfast">Breakfast:</label>
+        <input type="text" id="breakfast" name="breakfast"><br><br>
+        <label for="lunch">Lunch:</label>
+        <input type="text" id="lunch" name="lunch"><br><br>
+        <label for="dinner">Dinner:</label>
+        <input type="text" id="dinner" name="dinner"><br><br>
+        <input type="submit" value="Add Meal" id="addmeal">
+    </form>
+    <table class="table">
+        <tr class="table_head">
+            <th>Day</th>
+            <th>Date</th>
+            <th>Breakfast</th>
+            <th>Lunch</th>
+            <th>Dinner</th>
+            <th>Actions</th>
+
+        </tr>
+        <tbody class="tablebody">
+
+        </tbody>
+    </table>
+
+        <script src="main.js"></script>
+</body>
+</html>
